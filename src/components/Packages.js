@@ -6,7 +6,6 @@ export default function Packages(props) {
   const displayPackages = props.packages.map((eachPackage) => (
     <ListGroup.Item>{eachPackage}</ListGroup.Item>
   ));
-
   return (
     <Container>
       <Card>
